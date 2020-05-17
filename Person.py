@@ -6,7 +6,7 @@ class Person:
         self.interests = interests
         
     def hello(self):
-        print("Hello, my name is" + " " + self.name + " " + "and I am" + " " + self.age + " " + "years old. My interests are being a" + " " + self.interests)
+        f"Hello, my name is" + " " + {self.name} + " " + "and I am" + " " + {self.age} + " " + "years old. My interests are being a" + " " + {self.interests}
         
 person = Person("Ryan", "30","male","being a hardarse, agile and ssd hard")
 greeting = person.hello()
